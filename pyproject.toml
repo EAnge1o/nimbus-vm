@@ -9,7 +9,7 @@ description = "A bytecode compiler and mark-sweep garbage-collected virtual mach
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
-authors = [{ name = "WuxieLUK" }]
+authors = [{ name = "EAnge1o" }]
 keywords = ["compiler", "virtual-machine", "bytecode", "programming-language", "interpreter", "garbage-collector", "zero-dependencies"]
 classifiers = [
     "Development Status :: 3 - Alpha",

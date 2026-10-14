@@ -1,13 +1,13 @@
 # nimbus-vm
 
-![tests](https://github.com/WuxieLUK/nimbus-vm/actions/workflows/tests.yml/badge.svg)
+![tests](https://github.com/EAnge1o/nimbus-vm/actions/workflows/tests.yml/badge.svg)
 ![python](https://img.shields.io/badge/python-3.10%2B-blue)
-![license](https://img.shields.io/github/license/WuxieLUK/nimbus-vm)
+![license](https://img.shields.io/github/license/EAnge1o/nimbus-vm)
 
 一个 **从零实现编译器 + 字节码虚拟机** 的项目，语言名为 **Nimbus**。
 纯 Python 标准库、**零第三方运行时依赖**：手写词法分析器、递归下降 + Pratt 解析器、语义解析器、字节码编译器、栈式虚拟机，以及 **标记-清扫（mark-sweep）垃圾回收器**。
 
-> 与 [nimbus-kv](https://github.com/WuxieLUK/nimbus-kv)、[nimbus-git](https://github.com/WuxieLUK/nimbus-git) 同属 Nimbus 系统系列。
+> 与 [nimbus-kv](https://github.com/EAnge1o/nimbus-kv)、[nimbus-git](https://github.com/EAnge1o/nimbus-git) 同属 Nimbus 系统系列。
 
 ## 为什么具备获奖竞争力
 
@@ -88,7 +88,7 @@ scores["carol"] = 97;
 ## 快速开始
 
 ```bash
-git clone https://github.com/WuxieLUK/nimbus-vm.git
+git clone https://github.com/EAnge1o/nimbus-vm.git
 cd nimbus-vm
 python -m nimbusvm run examples/fib.nb
 python -m nimbusvm repl
