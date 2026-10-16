@@ -9,7 +9,7 @@
 
 > 与 [nimbus-kv](https://github.com/EAnge1o/nimbus-kv)、[nimbus-git](https://github.com/EAnge1o/nimbus-git) 同属 Nimbus 系统系列。
 
-## 为什么具备获奖竞争力
+## 项目亮点
 
 - **完整编译流水线**：`source -> tokens -> AST -> resolved AST -> bytecode -> VM`，不是玩具解释器。
 - **真正的字节码 VM**：46 个指令的栈式虚拟机，支持闭包、upvalue、短路的 `and/or`、`break/continue`、循环、方法调用。
